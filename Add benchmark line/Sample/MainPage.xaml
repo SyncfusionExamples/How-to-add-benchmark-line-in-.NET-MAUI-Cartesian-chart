@@ -26,7 +26,5 @@
                      SpecificYValue="65"/>
 
     </chart:SfCartesianChart>
-
-
-
+    
 </ContentPage>

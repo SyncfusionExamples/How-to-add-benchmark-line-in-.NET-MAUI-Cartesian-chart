@@ -26,6 +26,5 @@ namespace Sample
                 canvas.DrawLine(startPoint, yPoint, endPoint, yPoint);
             }
         }
-
     }
 }
