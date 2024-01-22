@@ -55,4 +55,3 @@ In the following section, where a SeriesExt is added to the chart, the `Specific
 **Output**
 
 ![benchmark line.png](https://support.syncfusion.com/kb/agent/attachment/article/14541/inline?token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjE1MjU4Iiwib3JnaWQiOiIzIiwiaXNzIjoic3VwcG9ydC5zeW5jZnVzaW9uLmNvbSJ9.43SyyKNM9JQOL6NyyvP-rFEqZRtWge2ZNC12Sw1wbk8)
-Explore the runnable demo from this GitHub [location](https://github.com/SyncfusionExamples/How-to-add-benchmark-line-in-.NET-MAUI-Cartesian-chart)
