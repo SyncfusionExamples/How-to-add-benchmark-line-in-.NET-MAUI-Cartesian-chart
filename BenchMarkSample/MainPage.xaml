@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:chart="clr-namespace:Syncfusion.Maui.Charts;assembly=Syncfusion.Maui.Charts"
+             xmlns:local="clr-namespace:BenchMarkSample"
+             x:Class="BenchMarkSample.MainPage">
+
+    <ContentPage.BindingContext>
+        <local:ViewModel/>
+    </ContentPage.BindingContext>
+    <chart:SfCartesianChart>
+        <chart:SfCartesianChart.XAxes>
+            <chart:CategoryAxis ShowMajorGridLines="False" PlotOffsetStart="10"/>
+        </chart:SfCartesianChart.XAxes>
+        <chart:SfCartesianChart.YAxes>
+            <chart:NumericalAxis ShowMajorGridLines="False" ShowMinorGridLines="False" EdgeLabelsDrawingMode="Center" Maximum="80" PlotOffsetEnd="5"/>
+        </chart:SfCartesianChart.YAxes>
+        <chart:ColumnSeries ItemsSource="{Binding Data}"
+                            XBindingPath="XValue"
+                            YBindingPath="YValue"
+                            ShowDataLabels="True">
+            <chart:ColumnSeries.DataLabelSettings>
+                <chart:CartesianDataLabelSettings>
+                    <chart:CartesianDataLabelSettings.LabelStyle>
+                        <chart:ChartDataLabelStyle TextColor="White" LabelFormat="0'%"></chart:ChartDataLabelStyle>
+                    </chart:CartesianDataLabelSettings.LabelStyle>
+                </chart:CartesianDataLabelSettings>
+            </chart:ColumnSeries.DataLabelSettings>
+        </chart:ColumnSeries>
+        <chart:SfCartesianChart.Annotations>
+            <chart:HorizontalLineAnnotation Y1="62" StrokeWidth="6" Stroke="Orange" Text="Benchmark">
+                <chart:HorizontalLineAnnotation.LabelStyle>
+                    <chart:ChartAnnotationLabelStyle HorizontalTextAlignment="Start" VerticalTextAlignment="End"/>
+                </chart:HorizontalLineAnnotation.LabelStyle>
+            </chart:HorizontalLineAnnotation>
+        </chart:SfCartesianChart.Annotations>
+    </chart:SfCartesianChart>
+</ContentPage>
