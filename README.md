@@ -15,11 +15,9 @@ A [Column Series](https://help.syncfusion.com/maui/cartesian-charts/column) is a
 
 
 In this example, we will explore how to add the benchmark line for a Cartesian chart using the annotation feature and custom drawing method.
+![Annotation](https://github.com/SyncfusionExamples/How-to-add-benchmark-line-in-.NET-MAUI-Cartesian-chart/assets/113961867/73f6bbba-e41f-453c-b645-d7313cf06376)
 
-![Annotation](https://github.com/SyncfusionExamples/How-to-add-a-benchmark-line-to-the.NET-MAUI-Cartesian-Chart/assets/113961867/00f0fc66-f138-4641-bfed-9c8410473012)
-
-
-![Custom drawing](https://github.com/SyncfusionExamples/How-to-add-a-benchmark-line-to-the.NET-MAUI-Cartesian-Chart/assets/113961867/6ce900ed-854b-46cc-b4d3-1950da0fbe07)
+![Custom drawing](https://github.com/SyncfusionExamples/How-to-add-benchmark-line-in-.NET-MAUI-Cartesian-chart/assets/113961867/65ee537a-5fcc-42cd-9f3d-7a8cae93130a)
 
 
 ## Troubleshooting
